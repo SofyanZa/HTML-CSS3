@@ -1,0 +1,128 @@
+body {
+    background-color: #2f3848;
+    width: 900px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: block;
+}
+
+h1 {
+    background-color: #f05768;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 15px;
+    border-bottom: solid 3px lightgray;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+nav {
+    color: yellowgreen;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 20px 20px 0;
+}
+
+nav a {
+    padding: 20px 20px 20px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    color: #00ccff;
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#main-paragraph {
+    color: white;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+#science {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+#cameleon-big {
+    position: relative;
+    width: 100%
+}
+
+p#title-photo  {
+position: absolute;
+background-color: #f05768;
+color: white;
+font-size: 20px;
+z-index: 10;
+font-size: 19px;
+font-weight: bolder;
+padding: 6px;
+
+}
+
+#social {
+    text-align: right;
+}
+
+#social img {
+    height: 25px;
+}
+
+.photos img {
+    width: 175px;
+}
+
+footer p {
+    text-align: center;
+    color: #00ccff;
+    padding: 20px;
+}
+
+section.flex {
+    display: flex;
+    /* text-align: left; */
+}
+
+.txtbleu {
+    background-color: #004488;
+    height: 60vh;
+    padding: 34px;
+    width: 180vh;
+    /* margin-top: 0px; */
+    padding-bottom:  5px;
+    /* text-align: left; */
+    /* text-align: left; */
+}
+
+.txtbleu h2 {
+    font-size: 19px;
+    color: #00ccff;
+    font-weight: bolder;
+    border-bottom: 1px solid #00ccff;
+    padding: 14px;
+    margin: 1px 10px 2px -18px;
+}
+
+.txtbleu p, a {
+    /* font-size: 18px; */
+    color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+    word-break: break-all;
+    text-align: left;
+} 
+
+.txtbleu a {
+    text-decoration: underline;
+}
